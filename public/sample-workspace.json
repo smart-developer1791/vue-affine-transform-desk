@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "name": "A little arrow, on a journey",
+  "shape": "arrow",
+  "ink": "#566E99",
+  "steps": [
+    {
+      "id": "stretch",
+      "name": "A gentle stretch",
+      "enabled": true,
+      "kind": "scale",
+      "x": 130,
+      "y": 80
+    },
+    {
+      "id": "turn",
+      "name": "A small turn",
+      "enabled": true,
+      "kind": "rotate",
+      "angle": 30
+    },
+    {
+      "id": "move",
+      "name": "A place to land",
+      "enabled": true,
+      "kind": "translate",
+      "x": 70,
+      "y": -25
+    }
+  ],
+  "provenance": {
+    "project": "vue-affine-transform-desk",
+    "author": "CodeSculptor",
+    "marker": "AF-8ED0FA91"
+  }
+}
